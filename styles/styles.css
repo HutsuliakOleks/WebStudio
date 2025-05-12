@@ -1,0 +1,117 @@
+#logo {
+  font-size: 40px;
+}
+
+.navigation_styles {
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+.style1 {
+  text-align: center;
+  background-color: rgb(20%, 20%, 20%);
+  color: white;
+}
+
+#buttonstyles {
+  background-color: rgb(0%, 50%, 100%);
+}
+
+.textstyles1 {
+  margin-left: 50px;
+}
+.textstyles2 {
+  margin-left: 350px;
+  margin-top: -121px;
+}
+.textstyles3 {
+  margin-left: 650px;
+  margin-top: -101px;
+}
+.textstyles4 {
+  margin-left: 950px;
+  margin-top: -101px;
+}
+
+.imagestyles1 {
+  margin-left: 10px;
+}
+.imagestyles2 {
+  margin-left: 410px;
+  margin-top: -298px;
+}
+.imagestyles3 {
+  margin-left: 810px;
+  margin-top: -298px;
+}
+.styles h2 {
+  text-align: center;
+}
+.cardstyles1 {
+  margin-left: 30px;
+}
+.cardstyles2 {
+  margin-left: 330px;
+  margin-top: -356px;
+}
+.cardstyles3 {
+  margin-left: 630px;
+  margin-top: -356px;
+}
+.cardstyles4 {
+  margin-left: 930px;
+  margin-top: -356px;
+}
+#buttonstyles1 {
+  margin-left: 5px;
+}
+#buttonstyles2 {
+  margin-left: 55px;
+  margin-top: -21px;
+}
+#buttonstyles3 {
+  margin-left: 155px;
+  margin-top: -21px;
+}
+#buttonstyles4 {
+  margin-left: 240px;
+  margin-top: -21px;
+}
+#buttonstyles5 {
+  margin-left: 320px;
+  margin-top: -21px;
+}
+
+.portfoliostyles1-1 {
+  margin-left: 10px;
+}
+.portfoliostyles1-2 {
+  margin-left: 410px;
+  margin-top: -400px;
+}
+.portfoliostyles1-3 {
+  margin-left: 810px;
+  margin-top: -400px;
+}
+.portfoliostyles2-1 {
+  margin-left: 10px;
+}
+.portfoliostyles2-2 {
+  margin-left: 410px;
+  margin-top: -400px;
+}
+.portfoliostyles2-3 {
+  margin-left: 810px;
+  margin-top: -400px;
+}
+.portfoliostyles3-1 {
+  margin-left: 10px;
+}
+.portfoliostyles3-2 {
+  margin-left: 410px;
+  margin-top: -400px;
+}
+.portfoliostyles3-3 {
+  margin-left: 810px;
+  margin-top: -400px;
+}
