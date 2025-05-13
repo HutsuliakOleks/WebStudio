@@ -1,3 +1,10 @@
+:root {
+  --webkit-margin-top-collapse: -101px;
+  --webkit-margin-top-collapse1: -400px;
+  --webkit-margin-top-collapse2: -356px;
+  --webkit-margin-top-collapse3: -21px;
+}
+
 #logo {
   font-size: 40px;
 }
@@ -22,15 +29,15 @@
 }
 .textstyles2 {
   margin-left: 350px;
-  margin-top: -121px;
+  margin-top: var(--webkit-margin-top-collapse);
 }
 .textstyles3 {
   margin-left: 650px;
-  margin-top: -101px;
+  margin-top: var(--webkit-margin-top-collapse);
 }
 .textstyles4 {
   margin-left: 950px;
-  margin-top: -101px;
+  margin-top: var(--webkit-margin-top-collapse);
 }
 
 .imagestyles1 {
@@ -52,34 +59,34 @@
 }
 .cardstyles2 {
   margin-left: 330px;
-  margin-top: -356px;
+  margin-top: var(--webkit-margin-top-collapse2);
 }
 .cardstyles3 {
   margin-left: 630px;
-  margin-top: -356px;
+  margin-top: var(--webkit-margin-top-collapse2);
 }
 .cardstyles4 {
   margin-left: 930px;
-  margin-top: -356px;
+  margin-top: var(--webkit-margin-top-collapse2);
 }
 #buttonstyles1 {
   margin-left: 5px;
 }
 #buttonstyles2 {
   margin-left: 55px;
-  margin-top: -21px;
+  margin-top: var(--webkit-margin-top-collapse3);
 }
 #buttonstyles3 {
   margin-left: 155px;
-  margin-top: -21px;
+  margin-top: var(--webkit-margin-top-collapse3);
 }
 #buttonstyles4 {
   margin-left: 240px;
-  margin-top: -21px;
+  margin-top: var(--webkit-margin-top-collapse4);
 }
 #buttonstyles5 {
   margin-left: 320px;
-  margin-top: -21px;
+  margin-top: var(--webkit-margin-top-collapse4);
 }
 
 .portfoliostyles1-1 {
@@ -87,31 +94,31 @@
 }
 .portfoliostyles1-2 {
   margin-left: 410px;
-  margin-top: -400px;
+  margin-top: var(--webkit-margin-top-collapse1);
 }
 .portfoliostyles1-3 {
   margin-left: 810px;
-  margin-top: -400px;
+  margin-top: var(--webkit-margin-top-collapse1);
 }
 .portfoliostyles2-1 {
   margin-left: 10px;
 }
 .portfoliostyles2-2 {
   margin-left: 410px;
-  margin-top: -400px;
+  margin-top: var(--webkit-margin-top-collapse1);
 }
 .portfoliostyles2-3 {
   margin-left: 810px;
-  margin-top: -400px;
+  margin-top: var(--webkit-margin-top-collapse1);
 }
 .portfoliostyles3-1 {
   margin-left: 10px;
 }
 .portfoliostyles3-2 {
   margin-left: 410px;
-  margin-top: -400px;
+  margin-top: var(--webkit-margin-top-collapse1);
 }
 .portfoliostyles3-3 {
   margin-left: 810px;
-  margin-top: -400px;
+  margin-top: var(--webkit-margin-top-collapse1);
 }
