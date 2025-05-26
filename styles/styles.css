@@ -1,10 +1,19 @@
 :root {
   --text-color: #212121;
   --text-color2: #757575;
+  --font-family: "Roboto";
+  --second-family: "Raleway";
+  --no-points: none;
 }
 
 #logo {
+  font-family: var(--second-family);
+  font-weight: bold;
   font-size: 40px;
+}
+
+body {
+  font-family: var(--font-family);
 }
 
 .navigation_styles {
@@ -28,6 +37,17 @@
   text-align: center;
   background-color: rgb(20%, 20%, 20%);
   color: white;
+  height: 160px;
+  white-space: 20px;
+}
+
+.style2 {
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.list_none {
+  list-style: none;
 }
 
 #buttonstyles {
@@ -135,4 +155,8 @@
 .portfoliostyles3-3 {
   margin-left: 810px;
   margin-top: -400px;
+}
+footer {
+  background-color:rgb(20%, 20%, 20%);
+  color: white;
 }
