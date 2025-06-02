@@ -23,12 +23,40 @@ body {
   text-align: center;
   padding-right: auto;
   margin-right: auto;
-  border: 1px solid blue;
-  padding: 0px;
-  border-radius: 50px;
 }
 
-.navigation_styles:hover {
+.link_style:first-child {
+  margin-left: -500px;
+  margin-top: -50px;
+}
+.link_style:nth-child(2) {
+  margin-left: -200px;
+  margin-top: -19px;
+}
+.link_style:last-child {
+  margin-left: 100px;
+  margin-top: -19px;
+}
+
+.email.text {
+  margin-left: 1000px;
+  margin-top: -50px;
+}
+
+.telephone.text {
+  margin-left: 1000px;
+  margin-top: -18px;
+}
+
+.link_style:first-child:hover {
+  color: white;
+  background-color: rgb(0%, 50%, 100%);
+}
+.link_style:nth-child(2):hover {
+  color: white;
+  background-color: rgb(0%, 50%, 100%);
+}
+.link_style:last-child:hover {
   color: white;
   background-color: rgb(0%, 50%, 100%);
 }
@@ -50,113 +78,131 @@ body {
   list-style: none;
 }
 
-#buttonstyles {
+.buttonstyles {
   background-color: rgb(0%, 50%, 100%);
 }
 
-#textcolor {
+.textstyle_name {
   color: var(--text-color);
 }
 
-#p_color {
+.textstyle_working {
   color: var(--text-color2);
 }
 
-.textstyles1 {
+.textstyle_name:first-child {
+  text-align: inherit;
+}
+.textstyle_name:nth-child(2) {
+  text-align: inherit;
+}
+.textstyle_name:nth-child(3) {
+  text-align: inherit;
+}
+.textstyle_name:last-child {
+  text-align: inherit;
+}
+
+.textstyles:first-child {
   margin-left: 50px;
 }
-.textstyles2 {
+.textstyles:nth-child(2) {
   margin-left: 350px;
   margin-top: -120px;
 }
-.textstyles3 {
+.textstyles:nth-child(3) {
   margin-left: 650px;
   margin-top: -103px;
 }
-.textstyles4 {
+.textstyles:last-child {
   margin-left: 950px;
   margin-top: -103px;
 }
 
-.imagestyles1 {
+.imagestyles:first-child {
   margin-left: 10px;
 }
-.imagestyles2 {
+.imagestyles:nth-child(2) {
   margin-left: 410px;
   margin-top: -298px;
 }
-.imagestyles3 {
+.imagestyles:last-child {
   margin-left: 810px;
   margin-top: -298px;
 }
 .styles h2 {
   text-align: center;
 }
-.cardstyles1 {
+
+.cardstyles:first-child {
   margin-left: 30px;
 }
-.cardstyles2 {
+.cardstyles:nth-child(2) {
   margin-left: 330px;
   margin-top: -356px;
 }
-.cardstyles3 {
+.cardstyles:nth-child(3) {
   margin-left: 630px;
   margin-top: -356px;
 }
-.cardstyles4 {
+.cardstyles:last-child {
   margin-left: 930px;
   margin-top: -356px;
 }
-#buttonstyles1 {
+#buttonstyles:first-child {
   margin-left: 5px;
 }
-#buttonstyles2 {
+#buttonstyles:nth-child(2) {
   margin-left: 55px;
 }
-#buttonstyles3 {
+#buttonstyles:nth-child(3) {
   margin-left: 155px;
 }
-#buttonstyles4 {
+#buttonstyles:nth-child(4) {
   margin-left: 240px;
 }
-#buttonstyles5 {
+#buttonstyles:last-child {
   margin-left: 320px;
 }
 
-.portfoliostyles1-1 {
+.portfoliostyles1:first-child {
   margin-left: 10px;
 }
-.portfoliostyles1-2 {
+.portfoliostyles1:nth-child(2) {
   margin-left: 410px;
   margin-top: -400px;
 }
-.portfoliostyles1-3 {
+.portfoliostyles1:last-child {
   margin-left: 810px;
   margin-top: -400px;
 }
-.portfoliostyles2-1 {
+.portfoliostyles2:first-child {
   margin-left: 10px;
 }
-.portfoliostyles2-2 {
+.portfoliostyles2:nth-child(2) {
   margin-left: 410px;
   margin-top: -400px;
 }
-.portfoliostyles2-3 {
+.portfoliostyles2:last-child {
   margin-left: 810px;
   margin-top: -400px;
 }
-.portfoliostyles3-1 {
+.portfoliostyles3:first-child {
   margin-left: 10px;
 }
-.portfoliostyles3-2 {
+.portfoliostyles3:nth-child(2) {
   margin-left: 410px;
   margin-top: -400px;
 }
-.portfoliostyles3-3 {
+.portfoliostyles3:last-child {
   margin-left: 810px;
   margin-top: -400px;
+}
+.image-size {
+  width: 150;
+  height: 165;
 }
 footer {
-  background-color:rgb(20%, 20%, 20%);
+  background-color: rgb(20%, 20%, 20%);
   color: white;
 }
