@@ -21,30 +21,38 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="/" id="logo">WebStudio</a>
-      <nav class="navigation_styles">
-        <ul class="list_navigation">
-          <li class="link_style"><a href="#">Студія</a></li>
-          <li class="link_style"><a href="#">Портфоліо</a></li>
-          <li class="link_style"><a href="#">Контакти</a></li>
+    <header class="header">
+      <a href="/" class="logo">WebStudio</a>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_list_item">
+            <a href="#" class="nav_list_item_link">Студія</a>
+          </li>
+          <li class="nav_list_item">
+            <a href="#" class="nav_list_item_link">Портфоліо</a>
+          </li>
+          <li class="nav_list_item">
+            <a href="#" class="nav_list_item_link">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul class="list_address_head">
-        <li class="email-text">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contact_list">
+        <li class="contact_list_item">
+          <a href="mailto:info@devstudio.com" class="contact_list_item_link"
+            >info@devstudio.com</a
+          >
         </li>
-        <li class="telephone-text">
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contact_list_item">
+          <a href="tel:+380961111111" class="contact_list_item_link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
     <main>
-      <section class="style">
-        <h1 class="style_text">Еффективні рішення для вашого бізнесу</h1>
-        <button type="button" class="buttonstyles_studio">
-          Замовити послугу
-        </button>
+      <section class="hero">
+        <h1 class="hero_title">Еффективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero_button">Замовити послугу</button>
       </section>
       <section>
         <ul class="list_style">
@@ -78,78 +86,78 @@
           </li>
         </ul>
       </section>
-      <section class="styles">
+      <section class="images">
         <h2 class="image_title">Чим ми займаємося</h2>
-        <ul class="list_images">
-          <li class="imagestyles">
+        <ul class="image_list">
+          <li class="image_list_photo">
             <img src="./image/programming.png" alt="програмування" />
           </li>
-          <li class="imagestyles">
+          <li class="image_list_photo">
             <img src="./image/design.png" alt="дизайн" />
           </li>
-          <li class="imagestyles">
+          <li class="image_list_photo">
             <img src="./image/color.png" alt="колір стилі" />
           </li>
         </ul>
       </section>
-      <section class="styles">
-        <h2 class="card_text">Наша команда</h2>
-        <ul class="list_card">
-          <li class="cardstyles">
+      <section class="card">
+        <h2 class="card_title">Наша команда</h2>
+        <ul class="card_list">
+          <li class="card_list_item">
             <img
               src="./image/ihordemyanenko.jpg"
               alt="Ігор Дем'яненко"
               width="270"
               height="260"
             />
-            <h3 class="textstyle_name">Ігор Дем'яненко</h3>
-            <p class="textstyle_working">Product Designer</p>
+            <h3 class="card_list_item_name">Ігор Дем'яненко</h3>
+            <p class="card_list_item_text">Product Designer</p>
           </li>
-          <li class="cardstyles">
+          <li class="card_list_item">
             <img
               src="./image/olgaryepina.jpg"
               alt="Ольга Реєпіна"
               width="270"
               height="260"
             />
-            <h3 class="textstyle_name">Ольга Рєпіна</h3>
-            <p class="textstyle_working">Frontend Developer</p>
+            <h3 class="card_list_item_name">Ольга Рєпіна</h3>
+            <p class="card_list_item_text">Frontend Developer</p>
           </li>
-          <li class="cardstyles">
+          <li class="card_list_item">
             <img
               src="./image/mykolatarasov.jpg"
               alt="Микола Тарасов"
               width="270"
               height="260"
             />
-            <h3 class="textstyle_name">Микола Тарасов</h3>
-            <p class="textstyle_working">Marketing</p>
+            <h3 class="card_list_item_name">Микола Тарасов</h3>
+            <p class="card_list_item_text">Marketing</p>
           </li>
-          <li class="cardstyles">
+          <li class="card_list_item">
             <img
               src="./image/mychailoyeremakov.jpg"
               alt="Михайло Єремаков"
               width="270"
               height="260"
             />
-            <h3 class="textstyle_name">Михайло Єремаков</h3>
-            <p class="textstyle_working">UI Designer</p>
+            <h3 class="card_list_item_name">Михайло Єремаков</h3>
+            <p class="card_list_item_text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="/" id="logo">WebStudio</a>
+      <a href="/" class="logo">WebStudio</a>
       <address>
         <p>М. Київ, пр-т Лесі Українки, 26</p>
-        <ul class="list_address_foot">
-          <li>
-            <a href="mailto:info@example.com" class="footer_address"
+        <ul class="contact_list">
+          <li class="contact_list_item">
+            <a href="mailto:info@example.com" class="contact_list_item_link"
               >info@example.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="footer_address"
+          <li class="contact_list_item">
+            <a href="tel:+380961111111" class="contact_list_item_link"
               >+38 096 111 11 11</a
             >
           </li>
