@@ -82,18 +82,18 @@ body {
 .list_address_foot {
   list-style: none;
 }
-.list_style {
+.feature_style {
   list-style: none;
   display: flex;
 }
-.list_title {
+.feature_title {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.list_text {
+.feature_text {
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
@@ -136,7 +136,7 @@ body {
   text-align: center;
 }
 
-.card_text {
+.team_text {
   text-align: center;
   font-weight: 700;
   font-size: 0.03em;
@@ -145,16 +145,16 @@ body {
   color: var(--text-color);
 }
 
-.card_list {
+.team_list {
   list-style: none;
   display: flex;
 }
-.card_list_item {
+.team_list_item {
   width: 270px;
   height: 368px;
 }
 
-.card_list_item_name {
+.team_list_item_name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -162,7 +162,7 @@ body {
   color: var(--text-color);
 }
 
-.card_list_item_text {
+.team_list_item_text {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
