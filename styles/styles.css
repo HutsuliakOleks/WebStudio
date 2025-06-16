@@ -10,6 +10,12 @@
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 body {
@@ -20,23 +26,26 @@ body {
   width: 281px;
   height: 16px;
   font-weight: 500;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 14px;
   color: var(--text-color);
 }
 
 .nav_list_item {
   display: inline;
-  margin-left: 0px;
   width: 45px;
   letter-spacing: 0.02em;
   line-height: 0px;
-  text-indent: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: -32px;
+  padding-bottom: 32px;
 }
 
 .contact_list {
   list-style: none;
+  padding-top: -32px;
 }
 
 .contact_list_item {
@@ -69,6 +78,12 @@ body {
   letter-spacing: 0.06em;
   line-height: 136%;
   word-spacing: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .list_navigation {
@@ -85,6 +100,16 @@ body {
 .feature_style {
   list-style: none;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .feature_title {
   font-weight: 700;
@@ -92,6 +117,12 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.container button {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
 }
 .feature_text {
   font-weight: 400;
@@ -118,6 +149,11 @@ body {
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 50px;
   color: var(--text-color);
 }
 
@@ -130,10 +166,18 @@ body {
   display: inline;
   width: 370px;
   height: 294px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .images h2 {
   text-align: center;
+}
+
+.team {
+  width: 1600px;
+  height: 648px;
+  background-color: rgb(95%, 95%, 95%);
 }
 
 .team_text {
@@ -145,6 +189,14 @@ body {
   color: var(--text-color);
 }
 
+.team_title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .team_list {
   list-style: none;
   display: flex;
@@ -152,6 +204,10 @@ body {
 .team_list_item {
   width: 270px;
   height: 368px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+  background-color: white;
 }
 
 .team_list_item_name {
@@ -174,6 +230,11 @@ body {
   text-align: center;
 }
 
+.portrfolio {
+  width: 1370px;
+  height: 1160px;
+}
+
 .portfolio_list {
   list-style: none;
   width: 575px;
@@ -182,6 +243,11 @@ body {
 
 .portfolio_list_button {
   display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 34px;
 }
 
 .portfolio_list_button_link {
@@ -202,12 +268,19 @@ body {
 .portfolio_card1 {
   list-style: none;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
 }
 
 .portfolio_card1_item {
   border: 1px solid #e0e0e0;
   width: 370px;
   height: 404px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio_card1_item_title {
@@ -231,12 +304,19 @@ body {
 .portfolio_card2 {
   list-style: none;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
 }
 
 .portfolio_card2_item {
   border: 1px solid #e0e0e0;
   width: 370px;
   height: 404px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio_card2_item_title {
@@ -260,12 +340,19 @@ body {
 .portfolio_card3 {
   list-style: none;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
 }
 
 .portfolio_card3_item {
   border: 1px solid #e0e0e0;
   width: 370px;
   height: 404px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio_card3_item_title {
@@ -298,15 +385,25 @@ body {
   width: 370px;
   height: 294px;
 }
-
-.footer_address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
 footer {
+  width: 1600px;
+  height: 252px;
   background-color: rgb(20%, 20%, 20%);
   color: white;
+}
+.footer_contact_list {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.footer_contact_list_item {
+  margin-left: 1000px;
+  margin-top: -50px;
+  width: 135px;
+  height: 16px;
+  line-height: -200px;
 }
