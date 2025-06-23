@@ -22,6 +22,7 @@
   </head>
   <body>
     <header class="header">
+      <div class = "header_container">
       <a href="/" class="logo">WebStudio</a>
       <nav class="nav">
         <ul class="nav_list">
@@ -48,38 +49,40 @@
           >
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <section class="hero">
         <div class = "container">
         <h1 class="hero_title">Еффективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero_button">Замовити послугу</button>
+        <a href ="#" class="hero_button">Замовити послугу</a>
       </div>
       </section>
-      <section class="feature_style">
-        <ul>
-          <li>
+      <section class="features">
+        <div class = "container">
+        <ul class = "feature_list">
+          <li class ="feature_item">
             <h2 class="feature_title">Увага до деталей</h2>
             <p class="feature_text">
               Ідейні міркування, і навіть початок <br />повсякденноі роботи з
               форматування <br />позицій.
             </p>
           </li>
-          <li>
+          <li class ="feature_item">
             <h2 class="feature_title">Пунктуальність</h2>
             <p class="feature_text">
               Завдання організації, особливо рамки <br />і місце навчання кадрів
               тягне у себе.
             </p>
           </li>
-          <li>
+          <li class ="feature_item">
             <h2 class="feature_title">Планування</h2>
             <p class="feature_text">
               Так само консультація з широким <br />активом значною мірою
               зумовлює.
             </p>
           </li>
-          <li>
+          <li class ="feature_item">
             <h2 class="feature_title">Сучасні технології</h2>
             <p class="feature_text">
               Значимість цих проблем настільки <br />очевидна, що реалізація
@@ -87,8 +90,10 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="images">
+        <div class = "container">
         <h2 class="image_title">Чим ми займаємося</h2>
         <ul class="image_list">
           <li class="image_list_photo">
@@ -101,8 +106,10 @@
             <img src="./image/color.png" alt="колір стилі" />
           </li>
         </ul>
+      </div>
       </section>
       <section class="team">
+        <div class = "container">
         <h2 class="team_title">Наша команда</h2>
         <ul class="team_list">
           <li class="team_list_item">
@@ -146,13 +153,14 @@
             <p class="team_list_item_text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
-    <footer>
+    <footer class ="footer">
+      <div class = "container">
       <a href="/" class="logo">WebStudio</a>
-      <address>
-        <div class ="footer_container"></div>
-        <p>М. Київ, пр-т Лесі Українки, 26</p>
+      <address class ="footer_contact">
+        <p class="footer_text">М. Київ, пр-т Лесі Українки, 26</p>
         <ul class="footer_contact_list">
           <li class="footer_contact_list_item">
             <a href="mailto:info@example.com" class="footer_contact_list_item_link"
@@ -165,8 +173,8 @@
             >
           </li>
         </ul>
-      </div>
       </address>
+    </div>
     </footer>
   </body>
 </html>

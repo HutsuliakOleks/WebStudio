@@ -6,55 +6,86 @@
   --no-points: none;
 }
 
-.logo {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 26px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  margin-top: 24px;
-  margin-bottom: 25px;
-}
-
 body {
   font-family: var(--font-family);
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.header_container {
+  display: flex;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  align-content: center;
+}
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
 .nav_list {
-  width: 281px;
-  height: 16px;
+  width: 500px;
   font-weight: 500;
   font-size: 14px;
   color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .nav_list_item {
-  display: inline;
-  width: 45px;
-  letter-spacing: 0.02em;
-  line-height: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-top: -32px;
-  padding-bottom: 32px;
+  justify-content: space-between;
+}
+
+.nav_list_item_link {
+  display: flex;
+  width: 150px;
+  justify-content: center;
 }
 
 .contact_list {
-  list-style: none;
-  padding-top: -32px;
+  display: flex;
+  flex-direction: row;
 }
 
 .contact_list_item {
-  display: inline;
-  margin-left: 1000px;
-  margin-top: -50px;
-  width: 135px;
-  height: 16px;
-  line-height: -200px;
+  width: 200px;
 }
 
 .nav_list_item:hover {
@@ -73,44 +104,25 @@ body {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
-  width: 696px;
-  height: 120px;
   letter-spacing: 0.06em;
-  line-height: 136%;
+  line-height: 1.36;
   word-spacing: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
 }
 
 .list_navigation {
-  list-style: none;
-  margin-top: -20px;
-  padding-inline: auto;
 }
-.list_address_head {
-  list-style: none;
-}
-.list_address_foot {
-  list-style: none;
-}
-.feature_style {
-  list-style: none;
+
+.feature_list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 93px;
-  padding-bottom: 94px;
+  align-items: stretch;
 }
-ul {
-  list-style: none;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+
+.feature_item {
+  align-content: stretch;
+  width: 300px;
+  justify-content: center;
 }
+
 .feature_title {
   font-weight: 700;
   text-transform: uppercase;
@@ -118,16 +130,10 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.container button {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-}
 .feature_text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color2);
 }
@@ -135,12 +141,15 @@ ul {
 .hero_button {
   font-family: var(--font-family);
   width: 216px;
-  height: 50px;
+  height: 15px;
   font-weight: 700;
   color: white;
   text-align: center;
+  display: block;
   letter-spacing: 0.06em;
-  line-height: 187%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
   background-color: rgb(0%, 50%, 100%);
 }
 
@@ -149,65 +158,53 @@ ul {
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 50px;
   color: var(--text-color);
 }
 
+
 .image_list {
-  list-style: none;
+  width: 215px;
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .image_list_photo {
-  display: inline;
   width: 370px;
-  height: 294px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.images h2 {
-  text-align: center;
+  display: flex;
+  align-content: center;
 }
 
 .team {
   width: 1600px;
-  height: 648px;
   background-color: rgb(95%, 95%, 95%);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .team_text {
   text-align: center;
   font-weight: 700;
-  font-size: 0.03em;
   font-size: 36px;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-.team_title {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 50px;
+.team_list {
+  display: flex;
+  margin-top: 186px;
+  margin-bottom: 94px;
+  justify-content: center;
 }
 
-.team_list {
-  list-style: none;
-  display: flex;
+.team_title {
+  text-align: center;
 }
+
 .team_list_item {
-  width: 270px;
-  height: 368px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 94px;
   background-color: white;
+  width: 300px;
+  align-items: center;
 }
 
 .team_list_item_name {
@@ -226,35 +223,20 @@ ul {
   color: var(--text-color2);
 }
 
-.card h2 {
-  text-align: center;
-}
-
-.portrfolio {
-  width: 1370px;
-  height: 1160px;
-}
-
 .portfolio_list {
-  list-style: none;
-  width: 575px;
-  height: 54px;
 }
 
 .portfolio_list_button {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 34px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .portfolio_list_button_link {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color);
@@ -266,28 +248,17 @@ ul {
 }
 
 .portfolio_card1 {
-  list-style: none;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 30px;
 }
 
 .portfolio_card1_item {
   border: 1px solid #e0e0e0;
-  width: 370px;
-  height: 404px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio_card1_item_title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
@@ -296,34 +267,23 @@ ul {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color2);
 }
 
 .portfolio_card2 {
-  list-style: none;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 30px;
 }
 
 .portfolio_card2_item {
   border: 1px solid #e0e0e0;
-  width: 370px;
-  height: 404px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio_card2_item_title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
@@ -332,34 +292,23 @@ ul {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color2);
 }
 
 .portfolio_card3 {
-  list-style: none;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 30px;
 }
 
 .portfolio_card3_item {
   border: 1px solid #e0e0e0;
-  width: 370px;
-  height: 404px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio_card3_item_title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
@@ -368,7 +317,7 @@ ul {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color2);
 }
@@ -385,25 +334,16 @@ ul {
   width: 370px;
   height: 294px;
 }
-footer {
+.footer {
   width: 1600px;
-  height: 252px;
   background-color: rgb(20%, 20%, 20%);
   color: white;
 }
 .footer_contact_list {
-  list-style: none;
-  padding-top: 20px;
-  padding-bottom: 60px;
-  display: block;
-  padding-left: auto;
-  padding-right: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .footer_contact_list_item {
-  margin-left: 1000px;
-  margin-top: -50px;
-  width: 135px;
-  height: 16px;
-  line-height: -200px;
+  color: var(--text-color2);
 }
