@@ -34,6 +34,8 @@ p {
   padding-top: 24px;
   padding-bottom: 25px;
   width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
   margin-left: auto;
@@ -53,6 +55,7 @@ p {
   width: 300px;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 .nav {
   width: 500px;
@@ -66,6 +69,7 @@ p {
   color: var(--text-color);
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav_list_item {
@@ -81,6 +85,7 @@ p {
 .contact_list {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .contact_list_item {
@@ -186,7 +191,7 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .image_list {
@@ -204,8 +209,8 @@ p {
   background-color: rgb(95%, 95%, 95%);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .team_text {
@@ -214,7 +219,7 @@ p {
   font-size: 36px;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team_list {
@@ -243,8 +248,8 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color);
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team_list_item_text {
@@ -253,7 +258,7 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color2);
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .portfolio {
   width: 1170px;
