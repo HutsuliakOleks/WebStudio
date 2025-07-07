@@ -42,7 +42,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1170px;
+  width: 1200px;
   align-content: center;
 }
 .header_position {
@@ -202,6 +202,7 @@ p {
 
 .image_list_photo {
   width: 370px;
+  padding-bottom: 50px;
 }
 
 .team {
@@ -209,7 +210,7 @@ p {
   background-color: rgb(95%, 95%, 95%);
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -225,15 +226,12 @@ p {
 .team_list {
   display: flex;
   margin-top: 50px;
-  margin-bottom: 94px;
   justify-content: center;
   column-gap: 30px;
 }
 
 .team_title {
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .team_list_item {
@@ -299,12 +297,15 @@ p {
 .portfolio_card {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 8px;
+  column-gap: 30px;
   row-gap: 30px;
 }
 
 .portfolio_card_item {
   border: 1px solid #e0e0e0;
+  outline: 1px solid #e0e0e0;
+  width: 370px;
+  flex-basis: calc((100px / 3 * 20px) / 2);
 }
 
 .portfolio_card_item_title {
