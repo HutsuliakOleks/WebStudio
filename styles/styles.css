@@ -57,6 +57,10 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: rgb(0%, 50%, 100%);
+}
+.logo_studio {
+  color: black;
 }
 .nav {
   width: 500px;
@@ -81,6 +85,7 @@ p {
   display: flex;
   width: 94px;
   justify-content: center;
+  color: rgb(20%, 20%, 20%);
 }
 
 .contact_list {
@@ -96,14 +101,14 @@ p {
 
 .contact_list_item_link {
   justify-content: center;
+  color: rgb(20%, 20%, 20%);
 }
 
 .nav_list_item:hover {
-  outline: 1px solid rgb(0%, 50%, 100%);
+  
 }
 .nav_list_item::before {
   width: 2px;
-  outline: 1px solid rgb(20%, 20%, 20%);
 }
 
 .hero {
@@ -175,30 +180,30 @@ p {
 .feature_icon1 {
   width: 270px;
   height: 120px;
+  margin-bottom: 20px;
   background-image: url("../image/group1.png");
   background-repeat: no-repeat;
-  padding-top: 30px;
 }
 .feature_icon2 {
   width: 270px;
   height: 120px;
+  margin-bottom: 20px;
   background-image: url("../image/group2.png");
   background-repeat: no-repeat;
-  padding-top: 30px;
 }
 .feature_icon3 {
   width: 270px;
   height: 120px;
+  margin-bottom: 20px;
   background-image: url("../image/group3.png");
   background-repeat: no-repeat;
-  padding-top: 30px;
 }
 .feature_icon4 {
   width: 270px;
   height: 120px;
+  margin-bottom: 20px;
   background-image: url("../image/group4.png");
   background-repeat: no-repeat;
-  padding-top: 30px;
 }
 
 .hero_button {
@@ -214,7 +219,6 @@ p {
   line-height: 1.87;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
   background-color: rgb(0%, 50%, 100%);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -299,7 +303,8 @@ p {
   padding-bottom: 30px;
 }
 .portfolio {
-  width: 1170px;
+  flex-basis: 1170px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 94px;
@@ -339,13 +344,14 @@ p {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
-  flex-basis: calc((100px / 3 * 20px) / 2);
+  margin-bottom: 20px;
 }
 
 .portfolio_card_item {
   border: 1px solid #e0e0e0;
   outline: 1px solid #e0e0e0;
   width: 370px;
+  flex-basis: calc((100% / 3 * 20px) / 3);
 }
 
 .portfolio_card_item_title {
@@ -383,8 +389,12 @@ p {
 .footer_text {
   padding-top: 9px;
 }
+.footer_logo_studio {
+  color: white;
+}
 .footer_contact_list {
   padding-top: 20px;
+  font-style: normal;
 }
 
 .footer_contact_list_item {
