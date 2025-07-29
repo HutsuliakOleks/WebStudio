@@ -269,6 +269,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--text-color);
   padding-bottom: 94px;
+  align-items: left;
 }
 
 .team_list {
@@ -330,6 +331,7 @@ p {
   font-size: 16px;
   padding-top: 94px;
   padding-bottom: 34px;
+  align-items: center;
 }
 
 .portfolio_list_button_link {
