@@ -182,32 +182,89 @@ p {
 }
 
 .feature_icon1 {
-  width: 270px;
-  height: 120px;
-  margin-bottom: 20px;
-  background-image: url("../image/group1.png");
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
-.feature_icon2 {
+.feature_icon1:hover {
+  margin-bottom: 20px;
+}
+
+.feature_icon1:hover::after {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.feature_icon1::before {
+  content: url("../image/group1.png");
   width: 270px;
   height: 120px;
+  display: inline-block;
+}
+
+.feature_icon2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.feature_icon2:hover {
   margin-bottom: 20px;
-  background-image: url("../image/group2.png");
-  background-repeat: no-repeat;
+}
+
+.feature_icon2:hover::after {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.feature_icon2::before {
+  content: url("../image/group2.png");
+  width: 270px;
+  height: 120px;
+  display: inline-block;
 }
 .feature_icon3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.feature_icon3:hover {
+  margin-bottom: 20px;
+}
+
+.feature_icon3:hover::after {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.feature_icon3::before {
+  content: url("../image/group3.png");
   width: 270px;
   height: 120px;
-  margin-bottom: 20px;
-  background-image: url("../image/group3.png");
-  background-repeat: no-repeat;
+  display: inline-block;
 }
 .feature_icon4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.feature_icon4:hover {
+  margin-bottom: 20px;
+}
+
+.feature_icon4:hover::after {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.feature_icon4::before {
+  content: url("../image/group4.png");
   width: 270px;
   height: 120px;
-  margin-bottom: 20px;
-  background-image: url("../image/group4.png");
-  background-repeat: no-repeat;
+  display: inline-block;
 }
 
 .hero_button {
