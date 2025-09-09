@@ -192,14 +192,18 @@ p {
 .feature_icon1:hover::after {
   display: block;
   width: 100%;
-  margin-top: 15px;
 }
 
 .feature_icon1::before {
-  content: url("../image/group1.png");
+  content: "";
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   display: inline-block;
+}
+
+.feature_icon_shape1 {
+  background-color: #f5f4fa;
 }
 
 .feature_icon2 {
@@ -214,15 +218,20 @@ p {
 .feature_icon2:hover::after {
   display: block;
   width: 100%;
-  margin-top: 15px;
 }
 
 .feature_icon2::before {
-  content: url("../image/group2.png");
+  content: "";
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   display: inline-block;
 }
+
+.feature_icon_shape2 {
+  background-color: #f5f4fa;
+}
+
 .feature_icon3 {
   display: flex;
   justify-content: center;
@@ -235,15 +244,20 @@ p {
 .feature_icon3:hover::after {
   display: block;
   width: 100%;
-  margin-top: 15px;
 }
 
 .feature_icon3::before {
-  content: url("../image/group3.png");
+  content: "";
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   display: inline-block;
 }
+
+.feature_icon_shape3 {
+  background-color: #f5f4fa;
+}
+
 .feature_icon4 {
   display: flex;
   justify-content: center;
@@ -256,14 +270,18 @@ p {
 .feature_icon4:hover::after {
   display: block;
   width: 100%;
-  margin-top: 15px;
 }
 
 .feature_icon4::before {
-  content: url("../image/group4.png");
+  content: "";
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   display: inline-block;
+}
+
+.feature_icon_shape4 {
+  background-color: #f5f4fa;
 }
 
 .hero_button {
@@ -335,11 +353,15 @@ p {
 
 .team_title {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
 }
 
 .team_list_item {
   background-color: white;
   width: 270px;
+  height: 428px;
   align-items: center;
   border-radius: 4px;
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
@@ -367,24 +389,84 @@ p {
 }
 
 .team_list_item_icon {
+  display: inline;
+  padding-left: 25px;
+}
+
+.team_list_item_icon_circle {
+  fill: white;
+}
+.team_list_item_icon_platform {
+  fill: #afb1b8;
+}
+.team_list_item_icon_circle:hover {
+  fill: #2196f3;
+}
+.team_list_item_icon_platform:hover {
+  fill: white;
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients_title {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  justify-items: center;
-  margin-left: 15px;
-  padding-left: 22px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
-svg,
-path {
-  justify-content: center;
+.clients_icon {
+  display: flex;
+  margin-left: auto;
+  margin-left: auto;
+  align-items: center;
+  padding-top: 50px;
+  width: 1170px;
+  height: 92px;
 }
 
-.team_list_item_icon:hover {
-  width: 44px;
-  height: 44px;
-  margin-top: -5px;
-  background-color: rgb(0%, 50%, 100%);
-  border-radius: 5px;
+.clients_icon_logo {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients_icon_logo:nth-child(1) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.clients_icon_logo:nth-child(2) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.clients_icon_logo:nth-child(3) {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+.clients_icon_logo:nth-child(4) {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+.clients_icon_logo:nth-child(5) {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.clients_icon_logo:nth-child(6) {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.clients_icon_logo_shape {
+  fill: #afb1b8;
+  align-self: center;
 }
 
 .portfolio {
@@ -534,6 +616,11 @@ path {
   color: var(--text-color2);
 }
 
+.footer_icon {
+  width: 206px;
+  height: 80px;
+}
+
 .footer_icon_title {
   font-family: var(--font-family);
   font-weight: 700;
@@ -544,10 +631,9 @@ path {
 }
 
 .footer_icon_logo {
-  width: 44px;
-  height: 44px;
   fill: rgba(255, 255, 255, 0.1);
 }
 
-.footer_icon_logo_shape {
+.footer_icon_logo:hover {
+  fill: #2196f3;
 }
