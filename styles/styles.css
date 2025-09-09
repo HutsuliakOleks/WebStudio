@@ -423,7 +423,6 @@ p {
 }
 
 .clients_icon {
-  display: flex;
   margin-left: auto;
   margin-left: auto;
   align-items: center;
@@ -437,6 +436,10 @@ p {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.clients_icon_logo:hover {
+  fill: rgb(0%, 50%, 100%);
 }
 
 .clients_icon_logo:nth-child(1) {
@@ -465,7 +468,7 @@ p {
 }
 
 .clients_icon_logo_shape {
-  fill: #afb1b8;
+  color: #afb1b8;
   align-self: center;
 }
 
