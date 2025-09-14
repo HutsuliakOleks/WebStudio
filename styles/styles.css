@@ -322,8 +322,38 @@ p {
 }
 
 .image_list_photo {
+  margin-bottom: 70px;
+}
+
+.image_list_photo_image {
   width: 370px;
-  padding-bottom: 50px;
+  height: 294px;
+  padding-bottom: 70px;
+  align-content: end;
+}
+
+.image_list_container {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.image_list_photo:nth-child(1) {
+  background-image: url("../image/programming.png");
+}
+.image_list_photo:nth-child(2) {
+  background-image: url("../image/design.png");
+}
+.image_list_photo:nth-child(3) {
+  background-image: url("../image/color.png");
 }
 
 .team {
@@ -423,9 +453,11 @@ p {
 }
 
 .clients_icon {
+  display: ruby;
   margin-left: auto;
-  margin-left: auto;
+  margin-right: auto;
   align-items: center;
+  justify-content: center;
   padding-top: 50px;
   width: 1170px;
   height: 92px;
@@ -440,6 +472,7 @@ p {
 
 .clients_icon_logo:hover {
   fill: rgb(0%, 50%, 100%);
+  border-color: rgb(0%, 50%, 100%);
 }
 
 .clients_icon_logo:nth-child(1) {
