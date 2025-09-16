@@ -180,26 +180,26 @@ p {
   color: var(--text-color2);
 }
 
+.feature_icon_background {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+    margin-bottom: 20px;
+}
+
 .feature_icon1 {
   display: flex;
   justify-content: center;
   color: white;
-}
-.feature_icon1:hover {
-  margin-bottom: 20px;
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .feature_icon1:hover::after {
   display: block;
   width: 100%;
-}
-
-.feature_icon1::before {
-  content: "";
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  display: inline-block;
 }
 
 .feature_icon_shape1 {
@@ -210,22 +210,15 @@ p {
   display: flex;
   justify-content: center;
   color: white;
-}
-.feature_icon2:hover {
-  margin-bottom: 20px;
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .feature_icon2:hover::after {
   display: block;
   width: 100%;
-}
-
-.feature_icon2::before {
-  content: "";
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  display: inline-block;
 }
 
 .feature_icon_shape2 {
@@ -236,22 +229,15 @@ p {
   display: flex;
   justify-content: center;
   color: white;
-}
-.feature_icon3:hover {
-  margin-bottom: 20px;
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .feature_icon3:hover::after {
   display: block;
   width: 100%;
-}
-
-.feature_icon3::before {
-  content: "";
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  display: inline-block;
 }
 
 .feature_icon_shape3 {
@@ -262,22 +248,15 @@ p {
   display: flex;
   justify-content: center;
   color: white;
-}
-.feature_icon4:hover {
-  margin-bottom: 20px;
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .feature_icon4:hover::after {
   display: block;
   width: 100%;
-}
-
-.feature_icon4::before {
-  content: "";
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  display: inline-block;
 }
 
 .feature_icon_shape4 {
@@ -322,7 +301,6 @@ p {
 }
 
 .image_list_photo {
-  
 }
 
 .image_list_photo_image {
@@ -417,6 +395,8 @@ p {
 }
 .team_list_item_icon_platform {
   fill: #afb1b8;
+  width: 32px;
+  height: 32px;
 }
 .team_list_item_icon_circle:hover {
   fill: #2196f3;
