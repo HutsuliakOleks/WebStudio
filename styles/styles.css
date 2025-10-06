@@ -90,13 +90,16 @@ p {
   width: 94px;
   justify-content: center;
   color: rgb(20%, 20%, 20%);
+  transition: all 250ms;
 }
 
-.nav_list_item_link:hover {
-  color:rgb(0%, 50%, 100%);
+.nav_list_item_link:hover,
+.nav_list_item_link:focus {
+  color: rgb(0%, 50%, 100%);
 }
 
-.nav_list_item_link:hover::after {
+.nav_list_item_link:hover::after,
+.nav_list_item_link:focus::after {
   content: "";
   display: block;
   position: absolute;
@@ -120,6 +123,11 @@ p {
 .contact_list_item_link {
   justify-content: center;
   color: rgb(20%, 20%, 20%);
+  transition: all 250ms;
+}
+
+.contact_list_item_link:hover {
+  color: rgb(0%, 50%, 100%);
 }
 
 .nav_list_item:hover {
@@ -539,16 +547,20 @@ p {
 
 .team_list_item_icon_circle {
   fill: white;
+  transition: all 250ms;
 }
 .team_list_item_icon_platform {
   fill: #afb1b8;
   width: 32px;
   height: 32px;
+  transition: all 250ms;
 }
-.team_list_item_icon_circle:hover {
+.team_list_item_icon_circle:hover,
+.team_list_item_icon_circle:focus {
   fill: #2196f3;
 }
-.team_list_item_icon_platform:hover {
+.team_list_item_icon_platform:hover,
+.team_list_item_icon_platform:focus {
   fill: white;
 }
 
@@ -592,9 +604,11 @@ p {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: all 250ms;
 }
 
-.clients_icon_logo:hover {
+.clients_icon_logo:hover,
+.clients_icon_logo:focus {
   fill: rgb(0%, 50%, 100%);
   border-color: rgb(0%, 50%, 100%);
 }
@@ -659,9 +673,12 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color);
+  border: none;
+  transition: all 250ms;
 }
 
-.portfolio_list_button_link:hover {
+.portfolio_list_button_link:hover,
+.portfolio_list_button_link:focus {
   background-color: rgb(0%, 50%, 100%);
   color: white;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
@@ -685,9 +702,11 @@ p {
   flex-basis: calc((100% / 3 * 20px) / 3);
   overflow: hidden;
   height: 404px;
+  transition: all 250ms;
 }
 
-.portfolio_card_item:hover {
+.portfolio_card_item:hover,
+.portfolio_card_item:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
@@ -733,8 +752,10 @@ p {
   color: white;
   align-content: center;
   padding: 24px;
-  transform: translateX(-100%);
-  transition: transform 1s;
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -815,9 +836,11 @@ p {
 
 .footer_icon_logo {
   fill: rgba(255, 255, 255, 0.1);
+  transition: all 250ms;
 }
 
-.footer_icon_logo:hover {
+.footer_icon_logo:hover,
+.footer_icon_logo:focus {
   fill: #2196f3;
 }
 
