@@ -57,17 +57,12 @@ p {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
-  width: 300px;
-  justify-content: flex-start;
-  align-items: center;
   color: rgb(0%, 50%, 100%);
-  margin-left: 60px;
 }
 .logo_studio {
   color: black;
 }
 .nav {
-  width: 500px;
   margin-left: 193px;
 }
 
@@ -87,7 +82,6 @@ p {
 
 .nav_list_item_link {
   display: flex;
-  width: 94px;
   justify-content: center;
   color: rgb(20%, 20%, 20%);
   transition: all 250ms;
@@ -111,23 +105,32 @@ p {
 
 .contact_list {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  column-gap: 50px;
+  margin-left: auto;
 }
 
 .contact_list_item {
-  width: 200px;
-  justify-content: space-around;
 }
 
 .contact_list_item_link {
-  justify-content: center;
+  display: flex;
   color: rgb(20%, 20%, 20%);
   transition: all 250ms;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_list_item_link_icon {
+  margin-right: 10px;
 }
 
 .contact_list_item_link:hover {
   color: rgb(0%, 50%, 100%);
+}
+
+.contact_list_item_link:hover .contact_list_item_link_icon {
+  fill: rgb(0%, 50%, 100%);
 }
 
 .nav_list_item:hover {
@@ -540,6 +543,33 @@ p {
   padding-bottom: 30px;
 }
 
+.team_list_socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_list_socials_item_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.team_list_socials_item_link:hover {
+  background-color: rgb(0%, 50%, 100%);
+}
+
+.team_list_socials_item_link:hover .team_list_item_icon_platform {
+  fill: white;
+}
+
+/* .team_list_socials_item:hover ~ .team_list_item_icon_platform_hover:hover {
+  fill: white;
+} */
+
 .team_list_item_icon {
   display: inline;
   padding-left: 25px;
@@ -551,17 +581,9 @@ p {
 }
 .team_list_item_icon_platform {
   fill: #afb1b8;
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   transition: all 250ms;
-}
-.team_list_item_icon_circle:hover,
-.team_list_item_icon_circle:focus {
-  fill: #2196f3;
-}
-.team_list_item_icon_platform:hover,
-.team_list_item_icon_platform:focus {
-  fill: white;
 }
 
 .clients {
@@ -834,14 +856,31 @@ p {
   padding-bottom: 20px;
 }
 
-.footer_icon_logo {
-  fill: rgba(255, 255, 255, 0.1);
+.footer_icon_list {
+  display: flex;
+  column-gap: 
+}
+
+.footer_icon_list_item {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.footer_icon_list_item_link {
   transition: all 250ms;
+}
+
+.footer_icon_list_item_link_platform {
+  fill: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer_icon_logo:hover,
 .footer_icon_logo:focus {
-  fill: #2196f3;
+  background-color: #2196f3;
 }
 
 .footer_input_search {
