@@ -151,11 +151,17 @@ p {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 250ms;
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
 }
 
 .modal {
@@ -167,6 +173,7 @@ p {
   height: 581px;
   transform: translate(-50%, -50%);
   background-color: white;
+   transition: transform 250ms; 
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -771,6 +778,7 @@ p {
 .portfolio_card_item_image {
   overflow: hidden;
   position: relative;
+  height: 294px;
 }
 
 .portfolio_card_item_image:hover .portfolio_card_item_image_overlay {
