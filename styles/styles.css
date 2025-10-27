@@ -173,7 +173,7 @@ p {
   height: 581px;
   transform: translate(-50%, -50%);
   background-color: white;
-   transition: transform 250ms; 
+  transition: transform 250ms;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -280,8 +280,7 @@ p {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(20%, 20%, 20%, 0.4)),
-    url("../image/Img.png");
+  background-image: url("../image/Img.png");
   background-repeat: no-repeat;
   background-position: center;
   color: white;
@@ -292,6 +291,24 @@ p {
   box-shadow: 0px 1px 0px 0px black, 1px 0px 0px 0px black,
     0px -1px 0px 0px black, -1px 0px 0px 0px black,
     0px 3px 5px 0px rgb(20%, 20%, 20%);
+}
+
+.hero_image {
+    animation-name: slide;
+  animation-delay: 0ms;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: none;
+}
+
+@keyframes slide {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
 }
 
 .hero_title {

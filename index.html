@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/fontstyle.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -145,7 +146,7 @@
         <div class="container">
           <h2 class="image_title">Чим ми займаємося</h2>
           <ul class="image_list">
-            <li class="image_list_photo">
+            <li class="image_list_photo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay ="0">
               <img
                 src="./image/programming.png"
                 class="image_list_photo_image"
@@ -154,7 +155,7 @@
               />
               <div class="image_list_container">Десктопні податки</div>
             </li>
-            <li class="image_list_photo">
+            <li class="image_list_photo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay ="1000">
               <img
                 src="./image/design.png"
                 class="image_list_photo_image"
@@ -163,7 +164,7 @@
               />
               <div class="image_list_container">Мобільні податки</div>
             </li>
-            <li class="image_list_photo">
+            <li class="image_list_photo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay ="2000">
               <img
                 src="./image/color.png"
                 class="image_list_photo_image"
@@ -179,7 +180,7 @@
         <div class="container">
           <h2 class="team_title">Наша команда</h2>
           <ul class="team_list">
-            <li class="team_list_item">
+            <li class="team_list_item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay ="0">
               <img
                 src="./image/ihordemyanenko.jpg"
                 alt="Ігор Дем'яненко"
@@ -219,7 +220,7 @@
                 </li>
               </ul>
             </li>
-            <li class="team_list_item">
+            <li class="team_list_item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay ="500">
               <img
                 src="./image/olgaryepina.jpg"
                 alt="Ольга Реєпіна"
@@ -259,7 +260,7 @@
                 </li>
               </ul>
             </li>
-            <li class="team_list_item">
+            <li class="team_list_item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay ="1000">
               <img
                 src="./image/mykolatarasov.jpg"
                 alt="Микола Тарасов"
@@ -299,7 +300,7 @@
                 </li>
               </ul>
             </li>
-            <li class="team_list_item">
+            <li class="team_list_item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay ="1500">
               <img
                 src="./image/mychailoyeremakov.jpg"
                 alt="Михайло Єремаков"
@@ -380,27 +381,29 @@
     </main>
     <footer class="footer">
       <div class="container footer_position">
-        <div class ="footer_info">
-        <a href="/" class="logo"
-          >Web<span class="footer_logo_studio">Studio</span></a
-        >
-        <address class="footer_contact">
-          <p class="footer_text">м. Київ, пр-т Лесі Українки, 26</p>
-          <ul class="footer_contact_list">
-            <li class="footer_contact_list_item">
-              <a
-                href="mailto:info@example.com"
-                class="footer_contact_list_item_link"
-                >info@example.com</a
-              >
-            </li>
-            <li class="footer_contact_list_item">
-              <a href="tel:+380961111111" class="footer_contact_list_item_link"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer_info">
+          <a href="/" class="logo"
+            >Web<span class="footer_logo_studio">Studio</span></a
+          >
+          <address class="footer_contact">
+            <p class="footer_text">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="footer_contact_list">
+              <li class="footer_contact_list_item">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer_contact_list_item_link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer_contact_list_item">
+                <a
+                  href="tel:+380961111111"
+                  class="footer_contact_list_item_link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
         <div class="footer_icon">
           <h2 class="footer_icon_title">Приєднутесь</h2>
@@ -550,5 +553,9 @@
       </div>
     </div>
     <script src="./script/modal.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
