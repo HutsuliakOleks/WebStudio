@@ -40,6 +40,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   align-content: center;
+  border: 1px solid #ececec;
 }
 .container {
   margin-left: auto;
@@ -208,11 +209,17 @@ p {
   left: 40px;
 }
 
-.input-wrapper:active {
+.input-wrapper:active,
+.input-wrapper:focus {
   border: 1px solid #2196f3;
   width: 448px;
   height: 40px;
   margin-bottom: 5px;
+}
+
+.input-wrapper:focus,
+.input-wrapper:visited {
+  border-color: #2196f3;
 }
 
 .input-icon {
@@ -221,7 +228,9 @@ p {
   left: 10px;
 }
 
-.input-icon:active {
+.input-icon:active,
+.input-icon:focus,
+.input-icon:visited {
   fill: #2196f3;
 }
 
@@ -283,28 +292,118 @@ p {
   background-image: url("../image/Img.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: 0px;
   color: white;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
 }
-
-.hero_image {
-    animation-name: slide;
-  animation-delay: 0ms;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: none;
+.hero_subtitles {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@keyframes slide {
+@keyframes slide1 {
   0% {
+    position: relative;
+    background-image: url("../image/Img.png");
+    background-size: cover;
+    top: 1570px;
+    left: -215px;
+    opacity: 0.5;
   }
-  50% {
+  33.34% {
+    position: relative;
+    background-image: url("../image/Img.png");
+    background-size: cover;
+    top: 1570px;
+    left: -1815px;
+    opacity: 0.5;
+  }
+  66.66% {
+    position: relative;
+    background-image: url("../image/Img.png");
+    background-size: cover;
+    top: 1570px;
+    left: -3415px;
+    opacity: 0.5;
   }
   100% {
+    position: relative;
+    background-image: url("../image/Img.png");
+    background-size: cover;
+    top: 1570px;
+    left: -215px;
+    opacity: 0.5;
+  }
+}
+@keyframes slide2 {
+  0% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-divinetechygirl-1181717.jpg");
+    background-size: cover;
+    top: 970px;
+    left: 1385px;
+    opacity: 0.5;
+  }
+  33.34% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-divinetechygirl-1181717.jpg");
+    background-size: cover;
+    top: 970px;
+    left: -215px;
+    opacity: 0.5;
+  }
+  66.66% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-divinetechygirl-1181717.jpg");
+    background-size: cover;
+    top: 970px;
+    left: -1815px;
+    opacity: 0.5;
+  }
+  100% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-divinetechygirl-1181717.jpg");
+    background-size: cover;
+    top: 970px;
+    left: 1385px;
+    opacity: 0.5;
+  }
+}
+@keyframes slide3 {
+  0% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-elevate-digital-784230-1647919.jpg");
+    background-size: cover;
+    opacity: 0.5;
+    top: 370px;
+    left: 2985px;
+  }
+  33.34% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-elevate-digital-784230-1647919.jpg");
+    background-size: cover;
+    top: 370px;
+    left: 1385px;
+    opacity: 0.5;
+  }
+  66.66% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-elevate-digital-784230-1647919.jpg");
+    background-size: cover;
+    top: 370px;
+    left: -185px;
+    opacity: 0.5;
+  }
+  100% {
+    position: relative;
+    background-image: url("../image/animateimage/pexels-elevate-digital-784230-1647919.jpg");
+    background-size: cover;
+    top: 370px;
+    left: 2985px;
+    opacity: 0.5;
   }
 }
 
@@ -467,7 +566,9 @@ p {
 .images {
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
 }
+
 .image_title {
   font-weight: 700;
   font-size: 36px;
@@ -605,6 +706,11 @@ p {
   fill: white;
   transition: all 250ms;
 }
+
+.team_list_item_icon_circle:hover {
+  background-color: rgb(0%, 50%, 100%);
+}
+
 .team_list_item_icon_platform {
   fill: #afb1b8;
   width: 20px;
@@ -626,7 +732,6 @@ p {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
 }
 
 .clients_icon {
@@ -655,7 +760,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .clients_icon_logo {
@@ -664,7 +768,7 @@ p {
   justify-content: center;
   width: 106px;
   height: 60px;
-  transition: all 250ms;
+  transition: 250ms;
   fill: #afb1b8;
 }
 
@@ -731,14 +835,13 @@ p {
   color: var(--text-color);
   border: none;
   transition: all 250ms;
+  padding: 6px 23px;
 }
 
 .portfolio_list_button_link:hover,
 .portfolio_list_button_link:focus {
   background-color: rgb(0%, 50%, 100%);
   color: white;
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background: #2196f3;
   border: none;
 }
@@ -752,10 +855,8 @@ p {
 }
 
 .portfolio_card_item {
-  border: 1px solid #e0e0e0;
-  outline: 1px solid #e0e0e0;
-  width: 370px;
-  flex-basis: calc((100% / 3 * 20px) / 3);
+  /* width: 370px; */
+  flex-basis: calc((100% - 60px) / 3);
   overflow: hidden;
   height: 404px;
   transition: all 250ms;
@@ -763,8 +864,6 @@ p {
 
 .portfolio_card_item:hover,
 .portfolio_card_item:focus {
-  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
-    0 1px 1px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
 }
 
@@ -775,8 +874,12 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.portfolio_card_item_container {
+  border: 1px solid #eeeeee;
 }
 
 .portfolio_card_item_text {
@@ -786,7 +889,8 @@ p {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color2);
-  margin-left: 10px;
+  margin-left: 24px;
+  padding-bottom: 20px;
 }
 
 .portfolio_card_item_image {
@@ -936,6 +1040,7 @@ p {
 
 .footer_input_search_label {
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .footer_input_search_container {
