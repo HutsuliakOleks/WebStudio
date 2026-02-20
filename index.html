@@ -527,17 +527,11 @@
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
         <button class="modal-close" data-modal-close>
-          <circle cx="15" cy="15" r="15" fill="white" />
-          <svg width="18" height="18">
+          <!-- <circle cx="15" cy="15" r="15" fill="white" /> -->
+          <svg width="18" height="18" class ="modal-close-stroke">
             <use
               href="./icons/symbol-defs.svg#icon-close-black-18dp-2-1"
-              <circle
-              cx="15"
-              cy="15"
-              r="14.5"
-              stroke="black"
-              stroke-opacity="0.1"
-              class="modal-close-stroke"
+               class ="modal-close-icon"
             />
           </svg>
         </button>
@@ -557,6 +551,8 @@
                 <use href ="icons/symbol-defs.svg#icon-person-black-18dp-1"
               </svg>
             </div>
+            </div>
+            <div class="modal-form-field">
             <label class="modal-form-label">Телефон</label>
             <div class="input-wrapper">
               <input
@@ -570,6 +566,8 @@
                 <use href ="icons/symbol-defs.svg#icon-phone-black-18dp-1"
               </svg>
             </div>
+            </div>
+            <div class="modal-form-field">
             <label class="modal-form-label">Пошта</label>
             <div class="input-wrapper">
               <input
@@ -583,6 +581,8 @@
                 <use href ="icons/symbol-defs.svg#icon-email-black-18dp-1"
               </svg>
             </div>
+            </div>
+            <div class="modal-form-field">
             <label class="modal-form-label">Коментар</label>
             <div class="modal-textarea">
               <textarea
@@ -593,6 +593,7 @@
                 cols="48"
               >
               </textarea>
+            </div>
             </div>
             <div class="form-field-check">
               <input type="checkbox" is="input check" chass="input-check" />
